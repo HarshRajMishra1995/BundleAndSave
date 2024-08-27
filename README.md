@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+Bundle & Save UI
+This project is a React-based UI component that mimics a "Bundle & Save" option typically found in e-commerce websites. It includes dynamically expanding and collapsing bundle options, styled with Tailwind CSS, and is responsive to different screen sizes. The project also includes functionality for selecting sizes and colors within each bundle.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+Features
+Project Directory Structure
+Installation
+Running the Project
+Deployment
+Contributing
+License
+Features
+Dynamic bundle selection with expandable/collapsible options.
+Styled with Tailwind CSS for a modern and responsive UI.
+Dropdowns for selecting size and color.
+Total price calculation based on selected bundle.
+Fully responsive design.
 
-## Available Scripts
+Project Directory Structure
+.
+├── public/                 # Static assets
+├── src/
+│   ├── components/         # Reusable React components
+│   │   ├── AddToCartButton.js
+│   │   ├── BundleDropdowns.js
+│   │   └── BundleOption.js
+│   ├── App.js              # Main application file
+│   ├── index.css           # Global styles
+│   └── index.js            # Entry point for React
+├── tailwind.config.js      # Tailwind CSS configuration
+├── package.json            # Project metadata and dependencies
+└── README.md               # Project documentation
 
-In the project directory, you can run:
+Installation
+Prerequisites
+Make sure you have the following installed on your local development machine:
 
-### `npm start`
+Node.js (version 14.x or higher)
+npm or yarn (for package management)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Setup
+Clone the Repository:
+git clone git@github.com:HarshRajMishra1995/BundleAndSave.git
+cd BundleAndSave
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Install Dependencies:
 
-### `npm test`
+If you're using npm:
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Configure Tailwind CSS:
 
-### `npm run build`
+Tailwind CSS is already configured in the project. You can find the configuration in tailwind.config.js.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Running the Project
+To start the project locally:
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This will start a development server and the application will be accessible at http://localhost:3000.
